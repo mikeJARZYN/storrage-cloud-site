@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Storrage — Container Self-Storage · 20ft & 10ft Units</title>
+<meta name="description" content="Storrage provides secure self-storage in shipping containers. 20ft and 10ft units on a monitored yard, rented on a simple monthly storage licence.">
+<style>
+  :root{
+    --ink:#1a1d21; --muted:#5a6470; --bg:#f7f6f3; --panel:#ffffff;
+    --accent:#c8571b; --accent-ink:#ffffff; --line:#e4e1da; --steel:#2e3a45;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink);background:var(--bg);line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  header{background:var(--steel);color:#fff}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;padding:18px 24px}
+  .logo{font-weight:800;font-size:1.35rem;letter-spacing:-.02em}
+  .logo span{color:var(--accent)}
+  header a{color:#cdd6de;text-decoration:none;font-size:.95rem}
+  header a:hover{color:#fff}
+  .hero{background:var(--steel);color:#fff;padding:64px 0 72px}
+  .hero h1{font-size:clamp(1.9rem,4.5vw,2.9rem);line-height:1.15;letter-spacing:-.02em;max-width:640px}
+  .hero p{margin-top:16px;max-width:560px;color:#c3ccd4;font-size:1.1rem}
+  .hero .cta{display:inline-block;margin-top:28px;background:var(--accent);color:var(--accent-ink);
+             padding:13px 26px;border-radius:6px;text-decoration:none;font-weight:600}
+  .hero .cta:hover{filter:brightness(1.08)}
+  section{padding:56px 0}
+  h2{font-size:1.5rem;letter-spacing:-.01em;margin-bottom:24px}
+  .units{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:28px}
+  .card .size{font-size:2rem;font-weight:800;letter-spacing:-.02em}
+  .card .dims{color:var(--muted);font-size:.92rem;margin-bottom:12px}
+  .card ul{list-style:none;margin-top:10px}
+  .card li{padding:6px 0;border-top:1px solid var(--line);font-size:.95rem}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;counter-reset:step}
+  .step{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px}
+  .step::before{counter-increment:step;content:counter(step);display:inline-flex;width:30px;height:30px;
+                align-items:center;justify-content:center;border-radius:50%;background:var(--accent);
+                color:#fff;font-weight:700;margin-bottom:12px}
+  .step h3{font-size:1.02rem;margin-bottom:6px}
+  .step p{color:var(--muted);font-size:.93rem}
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px 32px}
+  .features li{list-style:none;padding-left:26px;position:relative;color:var(--ink)}
+  .features li::before{content:"";position:absolute;left:0;top:.5em;width:12px;height:12px;
+                        border-radius:3px;background:var(--accent)}
+  .contact{background:var(--panel);border-top:1px solid var(--line)}
+  .contact a{color:var(--accent);font-weight:600;text-decoration:none;font-size:1.15rem}
+  .contact p{max-width:600px}
+  footer{background:var(--steel);color:#9aa7b1;padding:26px 0;font-size:.88rem}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+  footer a{color:#cdd6de;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="logo">Stor<span>rage</span></div>
+    <a href="mailto:info@storrage.cloud">info@storrage.cloud</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h1>Secure container self-storage, rented by the month.</h1>
+    <p>Storrage provides clean, dry shipping-container storage on a secure yard.
+       Choose a 20ft or 10ft unit, pay monthly, and access your container when you need it.</p>
+    <a class="cta" href="mailto:info@storrage.cloud?subject=Storage%20enquiry">Check availability</a>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Our units</h2>
+    <div class="units">
+      <div class="card">
+        <div class="size">20ft container</div>
+        <div class="dims">Approx. 6.0m × 2.4m — around 32m³ of storage</div>
+        <p>Room for the contents of a family home, a full workshop, or trade stock and equipment.</p>
+        <ul>
+          <li>Wind and watertight steel unit</li>
+          <li>Drive-up ground-level access</li>
+          <li>Your own lock — only you hold the key</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="size">10ft container</div>
+        <div class="dims">Approx. 3.0m × 2.4m — around 16m³ of storage</div>
+        <p>Ideal for the contents of a flat, seasonal equipment, tools, or business archives.</p>
+        <ul>
+          <li>Wind and watertight steel unit</li>
+          <li>Drive-up ground-level access</li>
+          <li>Your own lock — only you hold the key</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="step"><h3>Book your size</h3><p>Tell us whether you need a 20ft or 10ft unit and when you'd like to start.</p></div>
+      <div class="step"><h3>Pay monthly</h3><p>A simple rolling monthly storage licence, paid by card. No long contracts.</p></div>
+      <div class="step"><h3>Move in</h3><p>Once payment and sign-up checks clear, you receive your access details and can start using your container.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>The yard</h2>
+    <ul class="features">
+      <li>Secure, fenced and gated site</li>
+      <li>CCTV-monitored</li>
+      <li>Vehicle access to your container door</li>
+      <li>Containers sit on level hardstanding</li>
+      <li>Flexible monthly terms — leave with notice</li>
+      <li>Online booking portal launching soon</li>
+    </ul>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>For availability, rates and any questions, email us and we'll come back to you promptly:</p>
+    <p style="margin-top:12px"><a href="mailto:info@storrage.cloud">info@storrage.cloud</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 Storrage — container self-storage</div>
+    <div><a href="mailto:info@storrage.cloud">info@storrage.cloud</a> · storrage.cloud</div>
+  </div>
+</footer>
+</body>
+</html>
