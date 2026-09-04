@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Storrage — Container Self-Storage · 20ft & 10ft Units</title>
-<meta name="description" content="Storrage provides secure self-storage in shipping containers. 20ft and 10ft units on a monitored yard, on 6 or 12 month storage licences with monthly payments.">
+<title>Storrage — Trade &amp; Business Container Storage · 3, 6 &amp; 12 Month Licences</title>
+<meta name="description" content="Storrage provides trade-only container storage for builders, tradespeople and businesses. Secure 20ft units on a monitored yard, fixed-term 3, 6 or 12 month business licences from £120 a month, move in on the 1st or 16th, pay monthly by card or Direct Debit.">
 <style>
   :root{
     --ink:#1a1d21; --muted:#5a6470; --bg:#f7f6f3; --panel:#ffffff;
@@ -26,11 +26,13 @@
   .hero .cta{display:inline-block;margin-top:28px;background:var(--accent);color:var(--accent-ink);
              padding:13px 26px;border-radius:6px;text-decoration:none;font-weight:600}
   .hero .cta:hover{filter:brightness(1.08)}
+  .hero .trade-note{margin-top:18px;font-size:.92rem;color:#9aa7b1}
   section{padding:56px 0}
   h2{font-size:1.5rem;letter-spacing:-.01em;margin-bottom:24px}
   .units{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:28px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:28px;position:relative}
   .card .size{font-size:2rem;font-weight:800;letter-spacing:-.02em}
+  .card a{color:var(--accent);font-weight:600;text-decoration:none}
   .card .dims{color:var(--muted);font-size:.92rem;margin-bottom:12px}
   .card ul{list-style:none;margin-top:10px}
   .card li{padding:6px 0;border-top:1px solid var(--line);font-size:.95rem}
@@ -45,6 +47,22 @@
   .features li{list-style:none;padding-left:26px;position:relative;color:var(--ink)}
   .features li::before{content:"";position:absolute;left:0;top:.5em;width:12px;height:12px;
                         border-radius:3px;background:var(--accent)}
+  .tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+  .tier{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:28px;position:relative}
+  .tier.best{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent) inset}
+  .tier .tag,.card .tag{position:absolute;top:-12px;right:20px;background:var(--accent);color:#fff;font-size:.78rem;
+             font-weight:700;padding:3px 10px;border-radius:999px;letter-spacing:.02em}
+  .tier .term{font-size:1.05rem;font-weight:700;color:var(--muted)}
+  .tier .rate{font-size:2.3rem;font-weight:800;letter-spacing:-.02em;margin:4px 0 2px}
+  .tier .rate small{font-size:1rem;font-weight:600;color:var(--muted)}
+  .tier ul{list-style:none;margin-top:14px}
+  .tier li{padding:7px 0;border-top:1px solid var(--line);font-size:.93rem}
+  .tier li strong{font-weight:700}
+  .note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px 26px;margin-top:22px}
+  .note h3{font-size:1.02rem;margin-bottom:8px}
+  .note p,.note li{color:var(--muted);font-size:.93rem}
+  .note ul{margin:8px 0 0 18px}
+  .note li{padding:3px 0}
   .contact{background:var(--panel);border-top:1px solid var(--line)}
   .contact a{color:var(--accent);font-weight:600;text-decoration:none;font-size:1.15rem}
   .contact p{max-width:600px}
@@ -57,16 +75,17 @@
 <header>
   <div class="wrap">
     <div class="logo">Stor<span>rage</span></div>
-    <a href="mailto:fspmco@gmail.com">fspmco@gmail.com</a>
   </div>
 </header>
 
 <div class="hero">
   <div class="wrap">
-    <h1>Secure container self-storage on 6 or 12 month terms.</h1>
-    <p>Storrage provides clean, dry shipping-container storage on a secure yard.
-       Choose a 20ft or 10ft unit, sign a 6 or 12 month storage licence, and pay monthly by card.</p>
-    <a class="cta" href="mailto:fspmco@gmail.com?subject=Storage%20enquiry">Check availability</a>
+    <h1>Container storage for trade and business. 3, 6 or 12 month licences.</h1>
+    <p>Storrage licences clean, dry shipping-container storage to businesses and sole traders only —
+       builders, fitters, landscapers, online sellers and anyone who needs stock, tools or materials
+       close to hand. Fixed monthly rate, move in on the 1st or 16th, pay monthly by card or Direct Debit.</p>
+    <a class="cta" href="mailto:fspmco@gmail.com?subject=Trade%20storage%20enquiry">Check availability</a>
+    <p class="trade-note">Trade and business customers only. We do not offer domestic self-storage.</p>
   </div>
 </div>
 
@@ -77,23 +96,69 @@
       <div class="card">
         <div class="size">20ft container</div>
         <div class="dims">Approx. 6.0m × 2.4m — around 32m³ of storage</div>
-        <p>Room for the contents of a family home, a full workshop, or trade stock and equipment.</p>
-        <ul>
-          <li>Wind and watertight steel unit</li>
-          <li>Drive-up ground-level access</li>
-          <li>Your own lock — only you hold the key</li>
-        </ul>
+        <p>Room for a full trade set-up: tools, plant, fixings and site materials, or pallets of stock for an online business.</p>
       </div>
       <div class="card">
+        <div class="tag">Coming soon</div>
         <div class="size">10ft container</div>
         <div class="dims">Approx. 3.0m × 2.4m — around 16m³ of storage</div>
-        <p>Ideal for the contents of a flat, seasonal equipment, tools, or business archives.</p>
+        <p>Ideal for a van&rsquo;s worth of tools, seasonal kit, samples, or business archives.
+           10ft units are added as demand allows — <a href="mailto:fspmco@gmail.com?subject=10ft%20container%20%E2%80%94%20register%20my%20interest">register your interest</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Trade pricing</h2>
+    <div class="tiers">
+      <div class="tier">
+        <div class="term">Standard · 6 months</div>
+        <div class="rate">£140 <small>/ month</small></div>
         <ul>
-          <li>Wind and watertight steel unit</li>
-          <li>Drive-up ground-level access</li>
-          <li>Your own lock — only you hold the key</li>
+          <li>Licence term: <strong>6 months</strong> (6½ months from a 16th start)</li>
+          <li>To move in on the 1st: <strong>£280</strong></li>
+          <li>To move in on the 16th: <strong>£350</strong></li>
+          <li>Then <strong>4 monthly payments</strong> of £140</li>
+          <li>Total rent: £840 (1st) · £910 (16th)</li>
         </ul>
       </div>
+      <div class="tier best">
+        <div class="tag">Best value</div>
+        <div class="term">Best value · 12 months</div>
+        <div class="rate">£120 <small>/ month</small></div>
+        <ul>
+          <li>Licence term: <strong>12 months</strong> (12½ months from a 16th start)</li>
+          <li>To move in on the 1st: <strong>£240</strong></li>
+          <li>To move in on the 16th: <strong>£300</strong></li>
+          <li>Then <strong>10 monthly payments</strong> of £120</li>
+          <li>Total rent: £1,440 (1st) · £1,500 (16th)</li>
+        </ul>
+      </div>
+      <div class="tier">
+        <div class="term">Short Hire · 3 months</div>
+        <div class="rate">£160 <small>/ month</small></div>
+        <ul>
+          <li>Licence term: <strong>3 months</strong> (3½ months from a 16th start)</li>
+          <li>To move in on the 1st: <strong>£320</strong></li>
+          <li>To move in on the 16th: <strong>£400</strong></li>
+          <li>Then <strong>1 monthly payment</strong> of £160</li>
+          <li>Total rent: £480 (1st) · £560 (16th)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="note">
+      <h3>How payment works</h3>
+      <ul>
+        <li><strong>Move-in dates.</strong> Licences start on the <strong>1st</strong> or the <strong>16th</strong> of a month and always end on the last day of a month. Ask for another date and we'll offer the next 1st or 16th.</li>
+        <li><strong>Before you get access</strong> you pay your first month plus your final month in advance. That's two months' rent for a 1st-of-month start.</li>
+        <li><strong>Starting on the 16th?</strong> You also pay an <em>initial half-month alignment charge (16th to month-end)</em> of half the monthly rate. It's rent for the half month you occupy, not a fee or deposit, and it brings your licence in line with calendar-month billing. Your licence then runs the full 3, 6 or 12 months from the 1st of the next month.</li>
+        <li><strong>In between,</strong> each remaining month is collected automatically on the 1st by card (Stripe) or Direct Debit (GoCardless). Nothing is taken for the final month — it's already paid.</li>
+        <li><strong>Your rate is fixed</strong> for the whole licence term. Prices are reviewed once every three years; the current schedule runs from 1 April 2026 to 31 March 2029 and any change is published on this site before it takes effect.</li>
+      </ul>
+      <p style="margin-top:12px">Rates shown are for a 20ft container and apply to business licences only. All prices in GBP. Receipts are issued for every payment for your accounts.</p>
     </div>
   </div>
 </section>
@@ -102,13 +167,13 @@
   <div class="wrap">
     <h2>How it works</h2>
     <div class="steps">
-      <div class="step"><h3>Pick your size</h3><p>A 20ft or 10ft container — whatever fits what you're storing.</p></div>
-      <div class="step"><h3>Pick your term</h3><p>A 6 or 12 month storage licence.</p></div>
-      <div class="step"><h3>Pick your move-in date</h3><p>Choose the day you want your container from.</p></div>
-      <div class="step"><h3>Verify your ID</h3><p>A quick online identity check — standard for self-storage.</p></div>
-      <div class="step"><h3>Sign your licence</h3><p>Sign the storage licence for your chosen term.</p></div>
-      <div class="step"><h3>Pay</h3><p>Once signed, your first payment is taken by card and your recurring monthly payments are set up.</p></div>
-      <div class="step"><h3>Move in</h3><p>Your access details arrive and your container is ready to use.</p></div>
+      <div class="step"><h3>Pick your size</h3><p>A 20ft container now, 10ft coming soon — whatever fits your stock and kit.</p></div>
+      <div class="step"><h3>Pick your term</h3><p>A 3, 6 or 12 month business storage licence at a fixed monthly rate.</p></div>
+      <div class="step"><h3>Pick your move-in date</h3><p>The 1st or the 16th of the month — whichever comes first for you.</p></div>
+      <div class="step"><h3>Verify your business</h3><p>Your trading name, company or sole-trader details and a quick online identity check.</p></div>
+      <div class="step"><h3>Sign your licence</h3><p>Sign the business storage licence for your chosen term — a plain business-to-business agreement.</p></div>
+      <div class="step"><h3>Pay</h3><p>Once signed, your first and final month (plus the half month if you start on the 16th) is taken by card, and the remaining months are set up to collect automatically.</p></div>
+      <div class="step"><h3>Move in</h3><p>Your access details arrive and your container is ready to use from your move-in date.</p></div>
     </div>
   </div>
 </section>
@@ -117,12 +182,29 @@
   <div class="wrap">
     <h2>The yard</h2>
     <ul class="features">
+      <li>Wind and watertight steel units</li>
+      <li>Drive-up ground-level access</li>
+      <li>Your own lock — only you hold the key</li>
       <li>Secure, fenced and gated site</li>
       <li>CCTV-monitored</li>
-      <li>Vehicle access to your container door</li>
+      <li>Van and trailer access to your container door</li>
       <li>Containers sit on level hardstanding</li>
-      <li>6 or 12 month storage licences</li>
+      <li>3, 6 or 12 month business licences</li>
       <li>Online booking portal launching soon</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Who it&rsquo;s for</h2>
+    <ul class="features">
+      <li>Builders, joiners, electricians and plumbers</li>
+      <li>Kitchen, bathroom and flooring fitters</li>
+      <li>Landscapers and grounds contractors</li>
+      <li>Online sellers holding stock and packaging</li>
+      <li>Event, marquee and hire companies</li>
+      <li>Any business with tools, plant or archives to keep secure</li>
     </ul>
   </div>
 </section>
@@ -130,14 +212,14 @@
 <section class="contact">
   <div class="wrap">
     <h2>Contact</h2>
-    <p>For availability, rates and any questions, email us and we'll come back to you promptly:</p>
+    <p>Tell us your trade or business, the size you need and when you want to move in, and we'll come back to you promptly with availability and your next 1st or 16th start date:</p>
     <p style="margin-top:12px"><a href="mailto:fspmco@gmail.com">fspmco@gmail.com</a></p>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <div>© 2026 Storrage — container self-storage</div>
+    <div>© 2026 Storrage — trade &amp; business container storage</div>
     <div><a href="mailto:fspmco@gmail.com">fspmco@gmail.com</a> · storrage.cloud</div>
   </div>
 </footer>
